@@ -16,8 +16,8 @@ NutriChain Fit es una plataforma que busca integrar a diversos actores como clie
 **3.1 Cliente (Andrea, 32 años, ejecutiva)**
 - **Objetivo:** Mejorar salud física y alimentación.
 - **Flujo de Uso:**
-  - Registro y sincronización con dispositivos wearables.
-  - Selección de planes de salud personalizados.
+  - Registro y sincronización con dispositivos wearables que puedan conectar a una wallet, facebook, gmail o correo electronico.
+  - Crear un planes alimenticios segun los parametros de la personas (peso, edad, tamaño, actividad fisica y tiempo que dispone para realizar la actividad), este plan se necesita crear a base de inteligencia artificial
   - Acumulación de AgroPuntos al entrenar y seguir planes nutricionales.
   - Uso de la aplicación para escanear productos, verificando su trazabilidad.
   - Redención de puntos para apadrinar cultivos y recibir productos en casa.
