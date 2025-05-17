@@ -11,8 +11,14 @@ src/
 │   ├── dashboard/        # Dashboard specific components
 │   ├── forms/            # Form components
 │   ├── layout/           # Layout components
+│   ├── animations/       # GSAP animations components
 │   └── web3/             # Blockchain related components
 ├── contracts/            # Smart contracts
+│   ├── cairo/            # Cairo smart contracts
+│   │   ├── tokens/     # Token contracts (AgroPuntos)
+│   │   ├── core/       # Core platform contracts
+│   │   └── interfaces/ # Contract interfaces
+│   │   └── scripts/    # Contract deployment scripts
 │   ├── core/            # Core platform contracts
 │   ├── tokens/          # Token contracts (AgroPuntos)
 │   └── interfaces/      # Contract interfaces
@@ -27,7 +33,8 @@ src/
 │   ├── auth/         # Authentication hooks
 │   └── api/          # API related hooks
 ├── lib/               # Library code
-│   ├── blockchain/   # Blockchain utilities
+│   ├── starknet/     # Starknet utilities and configurations
+│   ├── gsap/         # GSAP animations setup and utilities
 │   ├── api/          # API utilities
 │   └── pod/          # POD (Proof of Delivery) integration
 ├── models/           # Data models
@@ -40,10 +47,11 @@ src/
 │   └── api/        # External API integrations
 ├── styles/         # Styling files
 │   ├── components/ # Component specific styles
-│   └── theme/     # Theme configuration
+│   ├── theme/     # Theme configuration
+│   └── animations/ # GSAP animation styles
 ├── types/         # TypeScript type definitions
 │   ├── api/      # API types
-│   ├── blockchain/ # Blockchain types
+│   ├── starknet/ # Starknet and Cairo types
 │   └── models/   # Model type definitions
 └── utils/        # Utility functions
     ├── blockchain/ # Blockchain utilities
